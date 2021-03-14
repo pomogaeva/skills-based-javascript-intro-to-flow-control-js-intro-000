@@ -2,6 +2,7 @@ let basicTeenager = function(age) {
   if(age >= 13 && age <= 19) {
     return "You are a teenager!";
   }
+  return;
 }
 
 let teenager = function(age) {
@@ -10,6 +11,7 @@ let teenager = function(age) {
   } else {
     return "You are not a teenager";
   }
+  return;
 }
 
 let ageChecker = function(age) {
@@ -20,6 +22,7 @@ let ageChecker = function(age) {
   } else if(age > 19) {
     return "You are a grownup";
   }
+  return;
 }
 
 let ternaryTeenager = function(age) {
@@ -52,4 +55,5 @@ let switchAge = function(age) {
     default:
       return "You have an age";
   }
+  return;
 }
