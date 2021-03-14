@@ -1,10 +1,10 @@
-function basicTeenager(age) {
+let basicTeenager = function(age) {
   if(age >= 13 && age <= 19) {
     return "You are a teenager!";
   }
 }
 
-function teenager(age) {
+let teenager = function(age) {
   if(age <= 19 && age >= 13) {
     return "You are a teenager!";
   } else {
@@ -12,7 +12,7 @@ function teenager(age) {
   }
 }
 
-function ageChecker(age) {
+let ageChecker = function(age) {
   if(age <= 19 && age >= 13) {
     return "You are a teenager!";
   } else if(age < 13){
@@ -22,11 +22,11 @@ function ageChecker(age) {
   }
 }
 
-function ternaryTeenager(age) {
+let ternaryTeenager = function(age) {
 return if(age <= 19 && age >= 13) ?  "You are a teenager" : "You are not a teenager";
 }
 
-function switchAge(age) {
+let switchAge = function(age) {
   switch(age) {
     case 13:
       return "You are a teenager";
